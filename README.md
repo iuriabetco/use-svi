@@ -29,9 +29,24 @@ To generate Google Street View URLs, the pipeline requires a street network shap
 In the example provided with this repository, the road network of the city of Lisbon is used `roads_lisbon.shp`, but the pipeline can be applied to any city for which street network data are available.
 
 
-# URL generation and metadata logging
+# 1. URL generation and metadata logging
 
 For each point, four Google Street View URLs were created, corresponding to the cardinal directions 0°, 90°, 180° and 270°, thus providing comprehensive visual coverage of the surrounding urban area. The `generate_image_url()` function constructs these URLs based on geographic coordinates and viewing angles. Information associated with each image - namely geographic coordinates, viewing angle, and the image’s unique identifier was recorded in a .csv file located in the folder `outputs`. 
+
+The previous steps can be achieved by running:
+
+```
+ python 1_URL.py
+```
+
+
+# 2. Image acquisition
+
+To automate the collection of Google Street View images, the Selenium library was utilised. The script developed automatically accesses the URLs generated in the previous stage, downloads the relevant images, and extracts additional information such as the image capture date (when available). 
+
+<strong>Accessing URLs and capturing images:</strong>: The script employs Selenium WebDriver, which manages a web browser (specifically, Google Chrome) to access the previously generated Google Street View URLs. The parameter `&pitch=0` is automatically appended to set the camera pitch to 0 degrees; this value can be adjusted if a different camera inclination is desired. 
+
+<strong>Use of Stealth Techniques:</strong> To prevent the script from being blocked by Google's bot detection systems, the stealth technique is applied using the selenium_stealth library. This technique masks browser and system characteristics to simulate more human behavior, such as language selection and browser settings. This method allows you to overcome the limitations of Google API requests and issues related to payment declines, as well as overcome limitations associated with the quality of images downloaded via the API.
 
 The previous steps can be achieved by running:
 

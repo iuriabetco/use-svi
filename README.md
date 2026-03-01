@@ -1,1 +1,1 @@
-# use-svi
+# Street View Imagery Extraction Pipeline

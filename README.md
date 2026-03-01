@@ -44,7 +44,7 @@ The previous steps can be achieved by running:
 
 To automate the collection of Google Street View images, the Selenium library was utilised. The script developed automatically accesses the URLs generated in the previous stage, downloads the relevant images, and extracts additional information such as the image capture date (when available). 
 
-<strong>Accessing URLs and capturing images:</strong>: The script employs Selenium WebDriver, which manages a web browser (specifically, Google Chrome) to access the previously generated Google Street View URLs. The parameter `&pitch=0` is automatically appended to set the camera pitch to 0 degrees; this value can be adjusted if a different camera inclination is desired. 
+<strong>Accessing URLs and capturing images:</strong> The script employs Selenium WebDriver, which manages a web browser (specifically, Google Chrome) to access the previously generated Google Street View URLs. The parameter `&pitch=0` is automatically appended to set the camera pitch to 0 degrees; this value can be adjusted if a different camera inclination is desired. 
 
 <strong>Use of Stealth Techniques:</strong> To prevent the script from being blocked by Google's bot detection systems, the stealth technique is applied using the selenium_stealth library. This technique masks browser and system characteristics to simulate more human behavior, such as language selection and browser settings. This method allows you to overcome the limitations of Google API requests and issues related to payment declines, as well as overcome limitations associated with the quality of images downloaded via the API.
 

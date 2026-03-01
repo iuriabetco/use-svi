@@ -48,8 +48,8 @@ To automate the collection of Google Street View images, the Selenium library wa
 
 <strong>Use of Stealth Techniques:</strong> To prevent the script from being blocked by Google's bot detection systems, the stealth technique is applied using the selenium_stealth library. This technique masks browser and system characteristics to simulate more human behavior, such as language selection and browser settings. This method allows you to overcome the limitations of Google API requests and issues related to payment declines, as well as overcome limitations associated with the quality of images downloaded via the API.
 
-The previous steps can be achieved by running:
+To proceed with the image acquisition, use the script:
 
 ```
- python 1_URL.py
+ python 2_IMAGES.py
 ```

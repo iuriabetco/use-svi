@@ -1,4 +1,4 @@
-# Street View Imagery Extraction Pipeline
+# Google Street View Imagery Extraction Pipeline
 
 USE-SVI (Urban Sampling & Extraction of Street View Imagery), a reproducible pipeline for sampling, acquiring, and stitching Google Street View images for city-scale analysis.
 

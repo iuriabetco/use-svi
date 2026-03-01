@@ -75,7 +75,7 @@ To proceed with panorama creation, run the script:
 
 If you use USE-SVI, please cite the [paper](https://doi.org/10.1016/j.mex.2026.103785):
 
-Betco, I., Viana, C. M., & Rocha, J. (2026). USE-SVI: A reproducible pipeline for sampling, acquiring, and stitching Street View imagery to support urban analytics. MethodsX, 16, 103785. https://doi.org/[10.1016/j.mex.2026.103785](https://doi.org/10.1016/j.mex.2026.103785)
+Betco, I., Viana, C. M., & Rocha, J. (2026). USE-SVI: A reproducible pipeline for sampling, acquiring, and stitching Street View imagery to support urban analytics. MethodsX, 16, 103785. https://doi.org/10.1016/j.mex.2026.103785
 
 
 BibTeX:

@@ -70,3 +70,25 @@ To proceed with panorama creation, run the script:
 ```
  python 3_PANORAMA.py
 ```
+
+## Paper / Attribution / Citation
+
+If you use USE-SVI, please cite the [paper](https://doi.org/10.1016/j.mex.2026.103785):
+
+Betco, I., Viana, C. M., & Rocha, J. (2026). USE-SVI: A reproducible pipeline for sampling, acquiring, and stitching Street View imagery to support urban analytics. MethodsX, 16, 103785. https://doi.org/[10.1016/j.mex.2026.103785](https://doi.org/10.1016/j.mex.2026.103785)
+
+
+BibTeX:
+```
+@article{BETCO2026103785,
+title = {USE-SVI: A reproducible pipeline for sampling, acquiring, and stitching Street View imagery to support urban analytics},
+journal = {MethodsX},
+volume = {16},
+pages = {103785},
+year = {2026},
+issn = {2215-0161},
+doi = {https://doi.org/10.1016/j.mex.2026.103785},
+url = {https://www.sciencedirect.com/science/article/pii/S2215016126000026},
+author = {Iuria Betco and Cláudia M. Viana and Jorge Rocha}
+}
+```

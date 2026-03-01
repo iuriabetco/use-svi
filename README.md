@@ -48,7 +48,7 @@ To automate the collection of Google Street View images, the Selenium library wa
 
 <strong>Use of Stealth Techniques:</strong> To prevent the script from being blocked by Google's bot detection systems, the stealth technique is applied using the selenium_stealth library. This technique masks browser and system characteristics to simulate more human behavior, such as language selection and browser settings. This method allows you to overcome the limitations of Google API requests and issues related to payment declines, as well as overcome limitations associated with the quality of images downloaded via the API.
 
-<p align="center"> <img src="img/image3.png" alt="mosaic" width="800"> </p>
+<p align="center"> <img src="img/image3.png" alt="mosaic" width="500"> </p>
 
 To proceed with the image acquisition, use the script:
 
@@ -60,7 +60,7 @@ To proceed with the image acquisition, use the script:
 
 Panorama creation involves combining multiple images taken at specific locations in Lisbon, using geographic coordinates, into a single panoramic picture. This process is automated through a script that employs the OpenCV library to align and merge the images, resulting in the final panorama.
 
-<p align="center"> <img src="img/image4.png" alt="mosaic" width="800"> </p>
+<p align="center"> <img src="img/image4.png" alt="mosaic" width="500"> </p>
 
 <strong>Panorama storage:</strong> The generated panorama is saved to a specified folder with a sequential file name. The file path of the panorama is recorded in an Excel file, which also contains metadata such as latitude, longitude, image name, date, and panorama file name.
 

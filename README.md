@@ -11,3 +11,9 @@ The journal paper can be found [here](https://doi.org/10.1016/j.mex.2026.103785)
 This method aims to collect images from Google Street View using three custom Python scripts that interact directly with Google Street View. To run the code, users need to install Python 3.12 and Chrome. The image collection and processing were carried out in several stages:
 
 <p align="center"> <img src="img/image2.png" alt="mosaic" width="800"> </p>
+
+# Input data
+
+To generate Google Street View URLs, the pipeline requires a street network shapefile as input. Street network data can be obtained free of charge from the BBBike platform [here](https://extract.bbbike.org/).
+
+In the example provided with this repository, the road network of the city of Lisbon is used, but the pipeline can be applied to any city for which street network data are available.

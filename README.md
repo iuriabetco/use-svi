@@ -7,3 +7,5 @@ The protocol ensures regular spatial coverage by generating sampling points at f
 The journal paper can be found [here](https://doi.org/10.1016/j.mex.2026.103785) 
 
 ![mosaic](img/image1.png)
+
+<img src="img/image1.png" alt="mosaic" width="600">

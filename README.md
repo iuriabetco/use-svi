@@ -12,6 +12,16 @@ This method aims to collect images from Google Street View using three custom Py
 
 <p align="center"> <img src="img/image2.png" alt="mosaic" width="800"> </p>
 
+# Requirements
+
+Install Python 3.12 and Chrome
+
+To install the requirements for the application (i.e., geopandas, pandas, shapely, geopy, selenium, selenium-stealth, webdriver-manager, opencv-python), run the following code on the command line:
+
+```
+pip install -r requirements.txt
+```
+
 # Input data
 
 To generate Google Street View URLs, the pipeline requires a street network shapefile as input. Street network data can be obtained free of charge from the  [BBBike platform](https://extract.bbbike.org/).

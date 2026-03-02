@@ -6,11 +6,11 @@ The protocol ensures regular spatial coverage by generating sampling points at f
 
 The journal paper can be found [here](https://doi.org/10.1016/j.mex.2026.103785) 
 
-<p align="center"> <img src="img/image1.png" alt="mosaic" width="700"> </p>
+<p align="center"> <img src="png/image_1.png" alt="mosaic" width="700"> </p>
 
 This method aims to collect images from Google Street View using three custom Python scripts that interact directly with Google Street View. To run the code, users need to install Python 3.12 and Chrome. The image collection and processing were carried out in several stages:
 
-<p align="center"> <img src="img/image2_1.png" alt="mosaic" width="700"> </p>
+<p align="center"> <img src="png/image_2.png" alt="mosaic" width="700"> </p>
 
 # Requirements
 
@@ -48,7 +48,7 @@ To automate the collection of Google Street View images, the Selenium library wa
 
 <strong>Use of Stealth Techniques:</strong> To prevent the script from being blocked by Google's bot detection systems, the stealth technique is applied using the selenium_stealth library. This technique masks browser and system characteristics to simulate more human behavior, such as language selection and browser settings. This method allows you to overcome the limitations of Google API requests and issues related to payment declines, as well as overcome limitations associated with the quality of images downloaded via the API.
 
-<p align="center"> <img src="img/image3.png" alt="mosaic" width="600"> </p>
+<p align="center"> <img src="png/image_3.png" alt="mosaic" width="600"> </p>
 
 To proceed with the image acquisition, use the script:
 
@@ -60,7 +60,7 @@ To proceed with the image acquisition, use the script:
 
 Panorama creation involves combining multiple images taken at specific locations in Lisbon, using geographic coordinates, into a single panoramic picture. This process is automated through a script that employs the OpenCV library to align and merge the images, resulting in the final panorama.
 
-<p align="center"> <img src="img/image4.png" alt="mosaic" width="600"> </p>
+<p align="center"> <img src="png/image_4.png" alt="mosaic" width="600"> </p>
 
 <strong>Panorama storage:</strong> The generated panorama is saved to a specified folder with a sequential file name. The file path of the panorama is recorded in an Excel file, which also contains metadata such as latitude, longitude, image name, date, and panorama file name.
 

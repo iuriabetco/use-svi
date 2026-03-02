@@ -1,0 +1,8 @@
+geopandas
+pandas
+shapely
+geopy
+selenium
+selenium-stealth
+webdriver-manager
+opencv-python

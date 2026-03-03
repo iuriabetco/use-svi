@@ -79,15 +79,13 @@ This step combines the four images captured at each sampling location into a sin
 
 <p align="center"> <img src="png/image_4.png" alt="mosaic" width="600"> </p>
 
-### Output
-
 - The generated panorama is saved in the `panoramas/` folder.
 - A metadata Excel file `panoramas_metadata.xlsx` is created in `outputs/`, containing:
   - Latitude
   - Longitude
-  - Image name
   - Capture date (when available)
-  - Panorama file name
+  - Panorama name
+  - Number of images stitched
 
 Run this step with:
 

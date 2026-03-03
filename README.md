@@ -75,18 +75,30 @@ Run this step with:
 
 # 3. Panorama creation
 
-Panorama creation involves combining multiple images taken at specific locations in Lisbon, using geographic coordinates, into a single panoramic picture. This process is automated through a script that employs the OpenCV library to align and merge the images, resulting in the final panorama.
+This step combines the four images captured at each sampling location into a single panoramic image.
 
 <p align="center"> <img src="png/image_4.png" alt="mosaic" width="600"> </p>
 
-<strong>Panorama storage:</strong> The generated panorama is saved to a specified folder with a sequential file name. The file path of the panorama is recorded in an Excel file, which also contains metadata such as latitude, longitude, image name, date, and panorama file name.
+The process uses OpenCV to automatically align and merge the images.
 
+### Output
 
-To proceed with panorama creation, run the script:
+- The generated panorama is saved in the `panoramas/` folder.
+- A metadata Excel file `panoramas_metadata.xlsx` is created in `outputs/`, containing:
+  - Latitude
+  - Longitude
+  - Image name
+  - Capture date (when available)
+  - Panorama file name
+
+Run this step with:
 
 ```
  python 3_PANORAMA.py
 ```
+
+
+
 
 ## Paper / Attribution / Citation
 

@@ -8,7 +8,7 @@ The original implementation associated with the published article corresponds to
 
 <p align="center"> <img src="png/image_1.png" alt="mosaic" width="700"> </p>
 
-To run the pipeline, users must install Python 3.12 and Google Chrome. The workflow is organised into three sequential scripts:
+The workflow is organised into three sequential scripts:
 
 1. `1_URL.py` – Generates sampling points and Street View URLs.
 2. `2_IMAGES.py` – Downloads images and extracts metadata.
@@ -19,8 +19,7 @@ Scripts must be executed in this order.
 <p align="center"> <img src="png/image_2.png" alt="mosaic" width="700"> </p>
 
 # Requirements
-
-Install Python 3.12 and Chrome
+<strong> Install Python 3.12 and Google Chrome. </strong> 
 
 To install the requirements for the application (i.e., geopandas, pandas, shapely, geopy, selenium, selenium-stealth, webdriver-manager, opencv-python), run the following code on the command line:
 

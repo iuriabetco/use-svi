@@ -45,7 +45,7 @@ For each image, the following metadata are recorded:
 - Viewing angle
 - Image name (used to save the file)
 
-The metadata are saved in a CSV file located in the `outputs/` folder.
+The metadata are saved in a CSV file located in the `outputs/lisbon_streetview_urls.csv` folder.
 
 Run this step with:
 ```

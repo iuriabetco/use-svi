@@ -34,17 +34,6 @@ The pipeline requires a street network shapefile (.shp) as input. Street network
 
 In the example provided in this repository, the road network of Lisbon is used (`roads_lisbon.shp`). However, the pipeline can be applied to any city for which street network data are available.
 
-# 1. URL generation and metadata logging
-
-For each point, four Google Street View URLs were created, corresponding to the cardinal directions 0°, 90°, 180° and 270°, thus providing comprehensive visual coverage of the surrounding urban area. The `generate_image_url()` function constructs these URLs based on geographic coordinates and viewing angles. Information associated with each image - namely geographic coordinates, viewing angle, and the image’s unique identifier was recorded in a .csv file located in the folder `outputs`. 
-
-The previous steps can be achieved by running:
-
-```
- python 1_URL.py
-```
-
-
 
 ## 1. URL generation and metadata logging
 For each sampling point, four Google Street View URLs are generated, corresponding to the cardinal directions (0°, 90°, 180°, and 270°).
@@ -52,9 +41,9 @@ For each sampling point, four Google Street View URLs are generated, correspondi
 The `generate_image_url()` function constructs these URLs based on geographic coordinates and viewing angles.
 
 For each image, the following metadata are recorded:
-- Latitude and longitude
+- Geographic coordinates (latitude and longitude)
 - Viewing angle
-- Unique image identifier
+- Image name (used to save the file)
 
 The metadata are saved in a CSV file located in the `outputs/` folder.
 

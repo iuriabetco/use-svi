@@ -33,7 +33,7 @@ The pipeline requires a street network shapefile (.shp) as input. Street network
 In the example provided in this repository, the road network of Lisbon is used (`roads_lisbon.shp`). However, the pipeline can be applied to any city for which street network data are available.
 
 
-## 1. URL generation and metadata logging
+# 1. URL generation and metadata logging
 For each sampling point, four Google Street View URLs are generated, corresponding to the cardinal directions (0°, 90°, 180°, and 270°).
 
 The `generate_image_url()` function constructs these URLs based on geographic coordinates and viewing angles.
@@ -51,7 +51,7 @@ Run this step with:
 ```
 
 
-## 2. Image acquisition
+# 2. Image acquisition
 
 This step uses Selenium WebDriver (Google Chrome) to automatically access the URLs generated in the previous stage and download the corresponding Street View images.
 

@@ -20,8 +20,10 @@ Scripts must be executed in this order.
 
 # Requirements
 Install <strong> Python 3.12 </strong> and <strong>Google Chrome</strong>.
+- Python 3.12
+- Google Chrome
 
-To install the requirements for the application (i.e., geopandas, pandas, shapely, geopy, selenium, selenium-stealth, webdriver-manager, opencv-python), run the following code on the command line:
+Install Python dependencies:
 
 ```
 pip install -r requirements.txt

@@ -52,21 +52,25 @@ Run this step with:
  python 1_URL.py
 ```
 
-# 2. Image acquisition
 
-To automate the collection of Google Street View images, the Selenium library was utilised. The script developed automatically accesses the URLs generated in the previous stage, downloads the relevant images, and extracts additional information such as the image capture date (when available). 
+## 2. Image acquisition
 
-<strong>Accessing URLs and capturing images:</strong> The script employs Selenium WebDriver, which manages a web browser (specifically, Google Chrome) to access the previously generated Google Street View URLs. The parameter `&pitch=0` is automatically appended to set the camera pitch to 0 degrees; this value can be adjusted if a different camera inclination is desired. 
+This step uses Selenium WebDriver (Google Chrome) to automatically access the URLs generated in the previous stage and download the corresponding Street View images.
 
-<strong>Use of Stealth Techniques:</strong> To prevent the script from being blocked by Google's bot detection systems, the stealth technique is applied using the selenium_stealth library. This technique masks browser and system characteristics to simulate more human behavior, such as language selection and browser settings. This method allows you to overcome the limitations of Google API requests and issues related to payment declines, as well as overcome limitations associated with the quality of images downloaded via the API.
+The script:
+- Opens each generated URL
+- Captures the image
+- Extracts additional metadata (e.g., image capture date, when available)
+
+The parameter `&pitch=0` is automatically appended to ensure a horizontal camera view (0°). This value can be modified if needed.
 
 <p align="center"> <img src="png/image_3.png" alt="mosaic" width="600"> </p>
 
-To proceed with the image acquisition, use the script:
-
+Run this step with:
 ```
  python 2_IMAGES.py
 ```
+
 
 # 3. Panorama creation
 

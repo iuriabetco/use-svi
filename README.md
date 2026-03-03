@@ -27,7 +27,6 @@ pip install -r requirements.txt
 ```
 
 ## Input data
-
 The pipeline requires a street network shapefile (.shp) as input. Street network data can be obtained free of charge from the [BBBike platform](https://extract.bbbike.org/).
 
 In the example provided in this repository, the road network of Lisbon is used (`roads_lisbon.shp`). However, the pipeline can be applied to any city for which street network data are available.

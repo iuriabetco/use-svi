@@ -62,9 +62,9 @@ The script:
 - Captures the image
 - Extracts additional metadata (e.g., image capture date, when available)
 
-The parameter `&pitch=0` is automatically appended to ensure a horizontal camera view (0°). This value can be modified if needed.
-
 <p align="center"> <img src="png/image_3.png" alt="mosaic" width="600"> </p>
+
+The parameter `&pitch=0` is automatically appended to ensure a horizontal camera view (0°). This value can be modified if needed.
 
 Run this step with:
 ```

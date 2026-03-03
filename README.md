@@ -43,7 +43,7 @@ For each image, the following metadata are recorded:
 - Viewing angle
 - Image name (used to save the file)
 
-The metadata are saved in a CSV file `lisbon_streetview_urls.csv` located in the `outputs/` folder.
+The metadata are saved in a CSV file `streetview_urls.csv` located in the `outputs/` folder.
 
 Run this step with:
 ```
@@ -60,7 +60,7 @@ The script:
 - Captures the image
 - Extracts additional metadata (e.g., image capture date, when available)
 
-The metadata are saved in a CSV file `lisbon_streetview_urls_with_status_data.csv` located in the `outputs/` folder.
+The metadata are saved in a CSV file `streetview_urls_with_status_data.csv` located in the `outputs/` folder.
 
 <p align="center"> <img src="png/image_3.png" alt="mosaic" width="600"> </p>
 

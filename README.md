@@ -10,7 +10,13 @@ The journal paper can be found [here](https://doi.org/10.1016/j.mex.2026.103785)
 
 <p align="center"> <img src="png/image_1.png" alt="mosaic" width="700"> </p>
 
-This method aims to collect images from Google Street View using three custom Python scripts that interact directly with Google Street View. To run the code, users need to install Python 3.12 and Chrome. The image collection and processing were carried out in several stages:
+To run the code, users need to install Python 3.12 and Chrome. The workflow is organised into three sequential scripts:
+
+1. `1_URL.py` – Generates sampling points and Street View URLs.
+2. `2_IMAGES.py` – Downloads images and extracts metadata.
+3. `3_PANORAMA.py` – Stitches images into panoramas and exports outputs.
+
+Scripts must be executed in this order.
 
 <p align="center"> <img src="png/image_2.png" alt="mosaic" width="700"> </p>
 

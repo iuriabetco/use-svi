@@ -8,6 +8,8 @@ The original implementation associated with the published article corresponds to
 
 <p align="center"> <img src="png/image_2.png" alt="mosaic" width="800"> </p>
 
+## Workflow
+
 The workflow is organised into three sequential scripts:
 
 1. `1_URL.py` – Generates sampling points and Street View URLs.
@@ -27,7 +29,9 @@ pip install -r requirements.txt
 ```
 
 ## Input data
-The pipeline requires a street network shapefile (.shp) as input. Street network data can be obtained free of charge from the [BBBike platform](https://extract.bbbike.org/).
+The pipeline requires a street network shapefile (.shp) as input. 
+
+Street network data can be obtained free of charge from the [BBBike platform](https://extract.bbbike.org/).
 
 In the example provided in this repository, the road network of Lisbon is used (`roads_lisbon.shp`). However, the pipeline can be applied to any city for which street network data are available.
 
@@ -46,6 +50,7 @@ Run this step with:
 ```
 python 1_URL.py --roads roads/roads_lisbon.shp --distance 30
 ```
+
 
 # 2. Image acquisition
 

@@ -45,6 +45,21 @@ The previous steps can be achieved by running:
 ```
 
 
+
+## 1. URL generation and metadata logging
+For each sampling point, four Google Street View URLs are generated, corresponding to the cardinal directions (0°, 90°, 180°, and 270°).
+
+The `generate_image_url()` function constructs these URLs based on geographic coordinates and viewing angles.
+
+For each image, the following metadata are recorded:
+- Latitude and longitude
+- Viewing angle
+- Unique image identifier
+
+The metadata are saved in a CSV file located in the `outputs/` folder.
+
+Run this step with:
+
 # 2. Image acquisition
 
 To automate the collection of Google Street View images, the Selenium library was utilised. The script developed automatically accesses the URLs generated in the previous stage, downloads the relevant images, and extracts additional information such as the image capture date (when available). 

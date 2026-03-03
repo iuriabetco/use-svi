@@ -6,7 +6,7 @@ USE-SVI (Urban Sampling & Extraction of Street View Imagery) is a Python pipelin
 
 The original implementation associated with the published article corresponds to an earlier release of the pipeline. This repository contains the actively maintained and updated version of USE-SVI, including refinements and technical improvements introduced after publication. The core methodological framework remains consistent with the published study. The journal paper can be found [here](https://doi.org/10.1016/j.mex.2026.103785). 
 
-<p align="center"> <img src="png/image_1.png" alt="mosaic" width="700"> </p>
+<p align="center"> <img src="png/image_2.png" alt="mosaic" width="800"> </p>
 
 The workflow is organised into three sequential scripts:
 
@@ -33,7 +33,7 @@ The pipeline requires a street network shapefile (.shp) as input. Street network
 In the example provided in this repository, the road network of Lisbon is used (`roads_lisbon.shp`). However, the pipeline can be applied to any city for which street network data are available.
 
 
-## 1. URL generation and metadata logging
+# 1. URL generation and metadata logging
 For each sampling point, four Google Street View URLs are generated, corresponding to the cardinal directions (0°, 90°, 180°, and 270°).
 
 The `generate_image_url()` function constructs these URLs based on geographic coordinates and viewing angles.
@@ -51,7 +51,7 @@ Run this step with:
 ```
 
 
-## 2. Image acquisition
+# 2. Image acquisition
 
 This step uses Selenium WebDriver (Google Chrome) to automatically access the URLs generated in the previous stage and download the corresponding Street View images.
 
@@ -73,7 +73,7 @@ Run this step with:
 ```
 
 
-## 3. Panorama creation
+# 3. Panorama creation
 
 This step combines the four images captured at each sampling location into a single panoramic image. The process uses OpenCV to automatically align and merge the images.
 
@@ -94,7 +94,7 @@ Run this step with:
 ```
 
 
-# Paper / Attribution / Citation
+## Paper / Attribution / Citation
 
 If you use USE-SVI, please cite the [paper](https://doi.org/10.1016/j.mex.2026.103785):
 

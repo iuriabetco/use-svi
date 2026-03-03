@@ -77,9 +77,9 @@ Run this step with:
 
 This step combines the four images captured at each sampling location into a single panoramic image.
 
-<p align="center"> <img src="png/image_4.png" alt="mosaic" width="600"> </p>
-
 The process uses OpenCV to automatically align and merge the images.
+
+<p align="center"> <img src="png/image_4.png" alt="mosaic" width="600"> </p>
 
 ### Output
 

@@ -19,7 +19,7 @@ Scripts must be executed in this order.
 <p align="center"> <img src="png/image_2.png" alt="mosaic" width="700"> </p>
 
 # Requirements
-Install <strong> Python 3.12 </strong> and <strong>Google Chrome.  </strong>
+Install <strong> Python 3.12 </strong> and <strong>Google Chrome  </strong>.
 
 To install the requirements for the application (i.e., geopandas, pandas, shapely, geopy, selenium, selenium-stealth, webdriver-manager, opencv-python), run the following code on the command line:
 

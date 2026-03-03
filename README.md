@@ -96,8 +96,6 @@ Run this step with:
 ```
 
 
-
-
 ## Paper / Attribution / Citation
 
 If you use USE-SVI, please cite the [paper](https://doi.org/10.1016/j.mex.2026.103785):

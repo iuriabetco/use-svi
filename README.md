@@ -2,7 +2,7 @@
 **Current version:** v1.1.0  
 **Release date:** March 2026  
 
-USE-SVI (Urban Sampling & Extraction of Street View Imagery) is a Python pipeline that samples road networks at fixed intervals (e.g., every 30 meters), generates Google Street View URLs (0°, 90°, 180°, 270°), automatically downloads images using Selenium without relying on official APIs, stitches images into panoramas, and exports structured outputs (CSV, XLSX) that can be directly imported into GIS environments for further spatial analysis.
+USE-SVI (Urban Sampling & Extraction of Street View Imagery) is a Python pipeline that samples road networks at fixed intervals, generates Google Street View URLs (0°, 90°, 180°, 270°), automatically downloads images using Selenium without relying on official APIs, stitches images into panoramas, and exports structured outputs (CSV, XLSX) that can be directly imported into GIS environments for further spatial analysis.
 
 The original implementation associated with the published article corresponds to an earlier release of the pipeline. This repository contains the actively maintained and updated version of USE-SVI, including refinements and technical improvements introduced after publication. The core methodological framework remains consistent with the published study. The journal paper can be found [here](https://doi.org/10.1016/j.mex.2026.103785). 
 
@@ -34,8 +34,6 @@ In the example provided in this repository, the road network of Lisbon is used (
 
 # 1. URL generation and metadata logging
 The sampling interval (in meters) can be modified by changing the distance value. For each sampling point, four Google Street View URLs are generated, corresponding to the cardinal directions (0°, 90°, 180°, and 270°).
-
-The `generate_image_url()` function constructs these URLs based on geographic coordinates and viewing angles.
 
 For each image, the following metadata are recorded:
 - Geographic coordinates (latitude and longitude)

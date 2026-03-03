@@ -1,4 +1,4 @@
-# Google Street View Imagery Extraction Pipeline
+# Google Street View Imagery Extraction Pipeline 
 **Current version:** v1.1.0  
 **Release date:** March 2026  
 

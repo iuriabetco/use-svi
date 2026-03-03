@@ -48,6 +48,9 @@ For each image, the following metadata are recorded:
 The metadata are saved in a CSV file located in the `outputs/` folder.
 
 Run this step with:
+```
+ python 1_URL.py
+```
 
 # 2. Image acquisition
 

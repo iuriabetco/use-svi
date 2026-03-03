@@ -19,7 +19,6 @@ Scripts must be executed in this order.
 <p align="center"> <img src="png/image_2.png" alt="mosaic" width="700"> </p>
 
 # Requirements
-Install <strong> Python 3.12 </strong> and <strong>Google Chrome</strong>.
 - Python 3.12
 - Google Chrome
 

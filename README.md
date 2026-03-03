@@ -28,8 +28,6 @@ Install Python dependencies:
 pip install -r requirements.txt
 ```
 
-# Input data
-
 ## Input data
 
 The pipeline requires a street network shapefile (.shp) as input. Street network data can be obtained free of charge from the [BBBike platform](https://extract.bbbike.org/).

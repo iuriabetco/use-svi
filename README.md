@@ -30,6 +30,15 @@ pip install -r requirements.txt
 
 # Input data
 
+## Input data
+
+The pipeline requires a street network shapefile (.shp) as input.
+
+Street network data can be obtained free of charge from the [BBBike platform](https://extract.bbbike.org/).
+
+In the example provided in this repository, the road network of Lisbon is used (`roads_lisbon.shp`).  
+However, the pipeline can be applied to any city for which street network data are available.
+
 To generate Google Street View URLs, the pipeline requires a street network shapefile as input. Street network data can be obtained free of charge from the  [BBBike platform](https://extract.bbbike.org/).
 
 In the example provided with this repository, the road network of the city of Lisbon is used `roads_lisbon.shp`, but the pipeline can be applied to any city for which street network data are available.

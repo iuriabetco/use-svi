@@ -34,7 +34,7 @@ In the example provided in this repository, the road network of Lisbon is used (
 
 
 # 1. URL generation and metadata logging
-For each sampling point, four Google Street View URLs are generated, corresponding to the cardinal directions (0°, 90°, 180°, and 270°).
+The sampling interval (in meters) can be modified by changing the distance value. For each sampling point, four Google Street View URLs are generated, corresponding to the cardinal directions (0°, 90°, 180°, and 270°).
 
 The `generate_image_url()` function constructs these URLs based on geographic coordinates and viewing angles.
 

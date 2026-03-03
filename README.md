@@ -2,6 +2,16 @@
 **Current version:** v1.1.0  
 **Release date:** March 2026  
 
+USE-SVI is a Python pipeline that:
+
+- Samples road networks at fixed intervals (e.g., every 30 meters)
+- Generates Google Street View URLs (0°, 90°, 180°, 270°)
+- Automatically downloads images using Selenium
+- Stitches images into panoramas
+- Exports structured outputs (CSV, PNG, XLSX)
+
+
+
 USE-SVI (Urban Sampling & Extraction of Street View Imagery), a reproducible pipeline for sampling, acquiring, and stitching Google Street View images for city-scale analysis.
 
 The protocol ensures regular spatial coverage by generating sampling points at fixed intervals along the street network and captures four viewing directions per location to represent the main visual perspectives. Image acquisition is performed through automated browser-based interaction with the Google Street View web interface using Selenium WebDriver, enabling systematic retrieval of street-level views without relying on official APIs.

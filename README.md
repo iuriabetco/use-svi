@@ -16,8 +16,6 @@ The workflow is organised into three sequential scripts:
 
 Scripts must be executed in this order.
 
-<p align="center"> <img src="png/image_2.png" alt="mosaic" width="700"> </p>
-
 # Requirements
 - Python 3.12
 - Google Chrome
@@ -63,6 +61,8 @@ The script:
 - Extracts additional metadata (e.g., image capture date, when available)
 
 <p align="center"> <img src="png/image_3.png" alt="mosaic" width="600"> </p>
+
+The metadata are saved in a CSV file lisbon_streetview_urls_with_status_data.csv located in the outputs/ folder.
 
 The parameter `&pitch=0` is automatically appended to ensure a horizontal camera view (0°). This value can be modified if needed.
 
